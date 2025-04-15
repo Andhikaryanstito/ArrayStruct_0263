@@ -18,7 +18,12 @@ int main(){
 
     //Mengisi array dengan looping for
     for (int i = 0; i < 3; i++){
-        cout << "Mahass=iswa ke-" << i+1 << " = "
+        cout << "Mahasiswa ke-" << i+1 << " = ";
         cin >> nama [i];
     }
-}
+
+    cout << endl;
+    for (int i = 0; i < 3; i++){
+        cout << "Data ke-" << i+1 << " = " << nama[i] << endl;
+    }
+};
